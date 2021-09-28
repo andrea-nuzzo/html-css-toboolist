@@ -5,6 +5,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+body {
+background-color: #f6f8f9;
+}
+
  /* ***** header ***** */
  header{
      background-color: white;
@@ -25,22 +29,19 @@
 
 /* ***** main ******/
 
-main{
-    background-color: #f6f8f9;
-}
-
 .container-main{
     background-color: white;
+    color: #454850;
     width: 60%;
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 30px 30px 30px;
     margin: auto;
     border: 20px solid #f6f8f9;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 .button-top{
     padding: 8px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px -20px 10px 30px;
 }
 
 .task{
@@ -69,8 +70,7 @@ hr{
 
 .padding
 {
-    padding-top: 40px;
-    padding-left: 40px;
+    margin: 20px 0px 20px 30px;
 }
 
 .check div::before {
@@ -134,3 +134,4 @@ hr{
     background-color: #a5c135 ;
     border: 0.5px solid #a5c135;
 }
+
