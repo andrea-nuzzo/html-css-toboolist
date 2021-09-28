@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
  /* ***** header ***** */
@@ -18,7 +19,6 @@
 #logo-text{
     color: #021732;
     display: inline-block;
-    font-family: 'Rubik', sans-serif;
     font-size: 40px;
     vertical-align: middle;
 }
@@ -64,9 +64,22 @@ hr{
 
 .newtask div::before {
     content:'\2713';
-    padding: 2px;
-    border-radius: 40%;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 50%;
     border: 1px solid #aedace;
     color: #aedace;
 }
 
+.text{
+    display: inline-block;
+}
+
+.button-bottom{
+    color: white;
+    background-color: #61aceb ;
+    border: 0.5px solid #61aceb;
+    padding: 5px;
+    border-radius: 15px;
+
+}
