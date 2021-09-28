@@ -61,3 +61,12 @@ hr{
     color: #f6f8f9;
     border: 1px solid #f6f8f9;
 }
+
+.newtask div::before {
+    content:'\2713';
+    padding: 2px;
+    border-radius: 40%;
+    border: 1px solid #aedace;
+    color: #aedace;
+}
+
