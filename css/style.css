@@ -35,7 +35,7 @@ main{
     border-radius: 30px 30px 0px 0px;
     margin: auto;
     border: 20px solid #f6f8f9;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .button-top{
@@ -63,6 +63,10 @@ hr{
     border: 1px solid #f6f8f9;
 }
 
+.text{
+    margin: 5px 0px 5px 0px;
+}
+
 .padding
 {
     padding-top: 40px;
@@ -78,6 +82,19 @@ hr{
     color: #aedace;
 }
 
+.uncheck div::before {
+    content:'\2717';
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid #f36967;
+    color: #f36967;
+}
+
+.block{
+    display: block;
+}
+
 .text{
     display: inline-block;
 }
@@ -87,9 +104,23 @@ hr{
     color: white;
     padding: 5px;
     border-radius: 12px;
+    width: 60px;
 }
 
 .editorial{
     background-color: #61aceb ;
     border: 0.5px solid #61aceb;
+}
+
+.q1goals{
+    background-color: #9368dc ;
+    border: 0.5px solid #9368dc;
+}
+.recruiting{
+    background-color: #4ab89f ;
+    border: 0.5px solid #4ab89f;
+}
+.mobile{
+    background-color: #f8933a ;
+    border: 0.5px solid #f8933a;
 }
